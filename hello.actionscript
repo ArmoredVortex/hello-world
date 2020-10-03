@@ -1,0 +1,11 @@
+package {
+	import flash.display.*;
+	import flash.text.*;
+	public class HelloWorld extends MovieClip {
+		public function HelloWorld () {
+			var txtComment:TextField=new TextField  ;
+			txtComment.text="Hello World!";
+			addChild(txtComment);
+ 		}
+	}
+}
