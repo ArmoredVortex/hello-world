@@ -4,7 +4,7 @@ package {
 	public class HelloWorld extends MovieClip {
 		public function HelloWorld () {
 			var txtComment:TextField=new TextField  ;
-			txtComment.text="Hello World";
+			txtComment.text="Hello World!";
 			addChild(txtComment);
  		}
 	}
